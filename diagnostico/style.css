@@ -1,0 +1,45 @@
+.col-img{
+    overflow-x: hidden;
+}
+.col-img img{
+    height: 14rem;
+}
+.row{
+    border: 0.3rem solid #504341;
+    border-radius: 1rem;
+    background-color: lightgrey; 
+}
+a.link-diagnostico{
+    text-decoration: none;
+    color:#C8A7A2;
+    font-weight: bold;
+    font-size: 1rem;
+    font-size: 1.1rem;
+}
+a.link-diagnostico span{
+    margin-left: -0.5rem;
+}
+
+a.link-diagnostico:hover{
+    color:#252221;
+}
+h2.diag-titulo{
+    font-family: 'DynaPuff', cursive;  
+}
+.container.diag-container{
+    padding: 4rem 15rem;
+}
+
+@media (max-width: 700px) { 
+    .container.diag-container{
+        padding: 4rem 1rem;
+    }
+    .col-img img {
+        height: auto;
+        width: 100%;
+    }
+    h2.diag-titulo{
+        margin: 2rem 0 0.5rem; 
+    }
+}
+
